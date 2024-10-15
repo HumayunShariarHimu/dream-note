@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dream Note</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./dream_note_style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<input id="myFile" type="file"/>
+<div class="loadfilequestion">
+  <div class="dialog">
+    <p class="dia-tit">Open Dream Note?</p>
+    <div class="btns">
+      <a id="ok" class="dia-btn">Yes</a><a class="dia-btn loadfilequestion-no">No</a>
+    </div>
+  </div>
+</div>
+<div class="savefile">
+  <div class="dialog">
+    <p class="dia-tit">Chose Dream Note Name</p>
+    <input type="text" id="filename" value="My Dream">
+    <div class="btns">
+      <a id="save" class="dia-btn">Save</a><a class="dia-btn savefile-no">Cancel</a>
+    </div>
+  </div>
+</div>
+<div class="content">
+  <div class="effectmouse"></div>
+  <div class="bar">
+    <svg style="width:24px;height:24px;opacity:0.75;" class="bicon" viewBox="0 0 24 24">
+      <path fill="#fff" d="M7,8V6H5V19H19V6H17V8H7M9,4A3,3 0 0,1 12,1A3,3 0 0,1 15,4H19A2,2 0 0,1 21,6V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V6A2,2 0 0,1 5,4H9M12,3A1,1 0 0,0 11,4A1,1 0 0,0 12,5A1,1 0 0,0 13,4A1,1 0 0,0 12,3Z" />
+    </svg>
+    <p>Dream Note</p>
+   
+  </div>
+  <div class="menu">
+    <a id="file" class="menubtn">Dream Note Extension</a>
+  </div>
+  <div class="submenu">
+    <div id="clear" class="sm-btn">New Dream Note</div>
+    <div id="open" class="sm-btn">Open...</div>
+    <div id="savedialg" class="sm-btn">Save</div>
+    <hr />
+    <div class="sm-btn">Exit</div>
+  </div>
+  <textarea id="myTextArea">আপনি যে বিষয়টিতে সফলতা লাভ করতে চান সেটি যতোটা সম্ভব ডিটেইলস আপনার মনের কথাগুলি লিখুন...</textArea>
+  <div class="color"></div>
+  <div class="blur"></div>
+  <div class="blur2"></div>
+</div>
+<!-- partial -->
+  <script src='./dream_note_script_one.js'></script>
+<script src='./dream_note_script_two.js'></script><script  src="./dream_note_script_three.js"></script>
+</body>
+</html>
