@@ -28,7 +28,7 @@ body {
 }
 
 .blur {
-  background: url('https://raw.githubusercontent.com/HumayunShariarHimu/dream-note/refs/heads/main/night-sky.jpg') no-repeat center center fixed;
+  background: url('https://raw.githubusercontent.com/HumayunShariarHimu/dream-note/main/night-sky.jpg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   filter: blur(15px);
@@ -41,7 +41,7 @@ body {
 }
 
 .blur2 {
-  background: url('https://raw.githubusercontent.com/HumayunShariarHimu/dream-note/refs/heads/main/night-sky.jpg') no-repeat center center fixed;
+  background: url('https://raw.githubusercontent.com/HumayunShariarHimu/dream-note/main/night-sky.jpg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   filter: blur(15px);
